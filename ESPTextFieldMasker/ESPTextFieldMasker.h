@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ESPMaskedTextField : NSObject
+@class ESPFormatter;
+
+@interface ESPTextFieldMasker : NSObject <UITextFieldDelegate>
+
+@property (strong, nonatomic) ESPFormatter *formatter;
+
+- (instancetype) initWithFormatter:(ESPFormatter *)formatter;
 
 @end

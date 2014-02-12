@@ -8,14 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		142D303418AAFCE50072AC37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142D303318AAFCE50072AC37 /* Foundation.framework */; };
-		142D303918AAFCE50072AC37 /* ESPMaskedTextField.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 142D303818AAFCE50072AC37 /* ESPMaskedTextField.h */; };
-		142D303B18AAFCE50072AC37 /* ESPMaskedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 142D303A18AAFCE50072AC37 /* ESPMaskedTextField.m */; };
 		142D304218AAFCE50072AC37 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142D304118AAFCE50072AC37 /* XCTest.framework */; };
 		142D304318AAFCE50072AC37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142D303318AAFCE50072AC37 /* Foundation.framework */; };
-		142D304518AAFCE50072AC37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142D304418AAFCE50072AC37 /* UIKit.framework */; };
-		142D304818AAFCE50072AC37 /* libESPMaskedTextField.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 142D303018AAFCE50072AC37 /* libESPMaskedTextField.a */; };
-		142D304E18AAFCE50072AC37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 142D304C18AAFCE50072AC37 /* InfoPlist.strings */; };
-		142D305018AAFCE50072AC37 /* ESPMaskedTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 142D304F18AAFCE50072AC37 /* ESPMaskedTextFieldTests.m */; };
+		142D304818AAFCE50072AC37 /* libESPTextFieldMasker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 142D303018AAFCE50072AC37 /* libESPTextFieldMasker.a */; };
+		142D305A18AAFD300072AC37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142D305918AAFD300072AC37 /* UIKit.framework */; };
+		142D306518AB01E90072AC37 /* ESPTextFieldMasker.m in Sources */ = {isa = PBXBuildFile; fileRef = 142D305F18AB01E90072AC37 /* ESPTextFieldMasker.m */; };
+		142D306618AB01E90072AC37 /* ESPTextFieldMasker.m in Sources */ = {isa = PBXBuildFile; fileRef = 142D305F18AB01E90072AC37 /* ESPTextFieldMasker.m */; };
+		142D306718AB01E90072AC37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 142D306118AB01E90072AC37 /* InfoPlist.strings */; };
+		142D306918AB01E90072AC37 /* ESPTextFieldMaskerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 142D306318AB01E90072AC37 /* ESPTextFieldMaskerTests.m */; };
+		142D306A18AB01E90072AC37 /* ESPTextFieldMaskerTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 142D306418AB01E90072AC37 /* ESPTextFieldMaskerTests-Info.plist */; };
+		142D306D18AB0F8E0072AC37 /* ESPFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 142D306C18AB0F8E0072AC37 /* ESPFormatter.m */; };
+		142D306E18AB0F8E0072AC37 /* ESPFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 142D306C18AB0F8E0072AC37 /* ESPFormatter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,24 +38,25 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				142D303918AAFCE50072AC37 /* ESPMaskedTextField.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		142D303018AAFCE50072AC37 /* libESPMaskedTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libESPMaskedTextField.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		142D303018AAFCE50072AC37 /* libESPTextFieldMasker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libESPTextFieldMasker.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		142D303318AAFCE50072AC37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		142D303718AAFCE50072AC37 /* ESPMaskedTextField-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ESPMaskedTextField-Prefix.pch"; sourceTree = "<group>"; };
-		142D303818AAFCE50072AC37 /* ESPMaskedTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESPMaskedTextField.h; sourceTree = "<group>"; };
-		142D303A18AAFCE50072AC37 /* ESPMaskedTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESPMaskedTextField.m; sourceTree = "<group>"; };
-		142D304018AAFCE50072AC37 /* ESPMaskedTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESPMaskedTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		142D304018AAFCE50072AC37 /* ESPTextFieldMaskerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESPTextFieldMaskerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		142D304118AAFCE50072AC37 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		142D304418AAFCE50072AC37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		142D304B18AAFCE50072AC37 /* ESPMaskedTextFieldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ESPMaskedTextFieldTests-Info.plist"; sourceTree = "<group>"; };
-		142D304D18AAFCE50072AC37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		142D304F18AAFCE50072AC37 /* ESPMaskedTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESPMaskedTextFieldTests.m; sourceTree = "<group>"; };
+		142D305918AAFD300072AC37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		142D305D18AB01E90072AC37 /* ESPTextFieldMasker-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ESPTextFieldMasker-Prefix.pch"; sourceTree = "<group>"; };
+		142D305E18AB01E90072AC37 /* ESPTextFieldMasker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTextFieldMasker.h; sourceTree = "<group>"; };
+		142D305F18AB01E90072AC37 /* ESPTextFieldMasker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTextFieldMasker.m; sourceTree = "<group>"; };
+		142D306218AB01E90072AC37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		142D306318AB01E90072AC37 /* ESPTextFieldMaskerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTextFieldMaskerTests.m; sourceTree = "<group>"; };
+		142D306418AB01E90072AC37 /* ESPTextFieldMaskerTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ESPTextFieldMaskerTests-Info.plist"; sourceTree = "<group>"; };
+		142D306B18AB0F8E0072AC37 /* ESPFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPFormatter.h; sourceTree = "<group>"; };
+		142D306C18AB0F8E0072AC37 /* ESPFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPFormatter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				142D305A18AAFD300072AC37 /* UIKit.framework in Frameworks */,
 				142D303418AAFCE50072AC37 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,9 +74,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				142D304218AAFCE50072AC37 /* XCTest.framework in Frameworks */,
-				142D304518AAFCE50072AC37 /* UIKit.framework in Frameworks */,
 				142D304318AAFCE50072AC37 /* Foundation.framework in Frameworks */,
-				142D304818AAFCE50072AC37 /* libESPMaskedTextField.a in Frameworks */,
+				142D304818AAFCE50072AC37 /* libESPTextFieldMasker.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,8 +85,8 @@
 		142D302718AAFCE50072AC37 = {
 			isa = PBXGroup;
 			children = (
-				142D303518AAFCE50072AC37 /* ESPMaskedTextField */,
-				142D304918AAFCE50072AC37 /* ESPMaskedTextFieldTests */,
+				142D305C18AB01E90072AC37 /* ESPTextFieldMasker */,
+				142D306018AB01E90072AC37 /* ESPTextFieldMaskerTests */,
 				142D303218AAFCE50072AC37 /* Frameworks */,
 				142D303118AAFCE50072AC37 /* Products */,
 			);
@@ -91,8 +95,8 @@
 		142D303118AAFCE50072AC37 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				142D303018AAFCE50072AC37 /* libESPMaskedTextField.a */,
-				142D304018AAFCE50072AC37 /* ESPMaskedTextFieldTests.xctest */,
+				142D303018AAFCE50072AC37 /* libESPTextFieldMasker.a */,
+				142D304018AAFCE50072AC37 /* ESPTextFieldMaskerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,55 +104,41 @@
 		142D303218AAFCE50072AC37 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				142D305918AAFD300072AC37 /* UIKit.framework */,
 				142D303318AAFCE50072AC37 /* Foundation.framework */,
 				142D304118AAFCE50072AC37 /* XCTest.framework */,
-				142D304418AAFCE50072AC37 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		142D303518AAFCE50072AC37 /* ESPMaskedTextField */ = {
+		142D305C18AB01E90072AC37 /* ESPTextFieldMasker */ = {
 			isa = PBXGroup;
 			children = (
-				142D303818AAFCE50072AC37 /* ESPMaskedTextField.h */,
-				142D303A18AAFCE50072AC37 /* ESPMaskedTextField.m */,
-				142D303618AAFCE50072AC37 /* Supporting Files */,
+				142D305D18AB01E90072AC37 /* ESPTextFieldMasker-Prefix.pch */,
+				142D305E18AB01E90072AC37 /* ESPTextFieldMasker.h */,
+				142D305F18AB01E90072AC37 /* ESPTextFieldMasker.m */,
+				142D306B18AB0F8E0072AC37 /* ESPFormatter.h */,
+				142D306C18AB0F8E0072AC37 /* ESPFormatter.m */,
 			);
-			path = ESPMaskedTextField;
+			path = ESPTextFieldMasker;
 			sourceTree = "<group>";
 		};
-		142D303618AAFCE50072AC37 /* Supporting Files */ = {
+		142D306018AB01E90072AC37 /* ESPTextFieldMaskerTests */ = {
 			isa = PBXGroup;
 			children = (
-				142D303718AAFCE50072AC37 /* ESPMaskedTextField-Prefix.pch */,
+				142D306118AB01E90072AC37 /* InfoPlist.strings */,
+				142D306318AB01E90072AC37 /* ESPTextFieldMaskerTests.m */,
+				142D306418AB01E90072AC37 /* ESPTextFieldMaskerTests-Info.plist */,
 			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		142D304918AAFCE50072AC37 /* ESPMaskedTextFieldTests */ = {
-			isa = PBXGroup;
-			children = (
-				142D304F18AAFCE50072AC37 /* ESPMaskedTextFieldTests.m */,
-				142D304A18AAFCE50072AC37 /* Supporting Files */,
-			);
-			path = ESPMaskedTextFieldTests;
-			sourceTree = "<group>";
-		};
-		142D304A18AAFCE50072AC37 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				142D304B18AAFCE50072AC37 /* ESPMaskedTextFieldTests-Info.plist */,
-				142D304C18AAFCE50072AC37 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			path = ESPTextFieldMaskerTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		142D302F18AAFCE50072AC37 /* ESPMaskedTextField */ = {
+		142D302F18AAFCE50072AC37 /* ESPTextFieldMasker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 142D305318AAFCE50072AC37 /* Build configuration list for PBXNativeTarget "ESPMaskedTextField" */;
+			buildConfigurationList = 142D305318AAFCE50072AC37 /* Build configuration list for PBXNativeTarget "ESPTextFieldMasker" */;
 			buildPhases = (
 				142D302C18AAFCE50072AC37 /* Sources */,
 				142D302D18AAFCE50072AC37 /* Frameworks */,
@@ -158,27 +148,28 @@
 			);
 			dependencies = (
 			);
-			name = ESPMaskedTextField;
+			name = ESPTextFieldMasker;
 			productName = ESPMaskedTextField;
-			productReference = 142D303018AAFCE50072AC37 /* libESPMaskedTextField.a */;
+			productReference = 142D303018AAFCE50072AC37 /* libESPTextFieldMasker.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		142D303F18AAFCE50072AC37 /* ESPMaskedTextFieldTests */ = {
+		142D303F18AAFCE50072AC37 /* ESPTextFieldMaskerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 142D305618AAFCE50072AC37 /* Build configuration list for PBXNativeTarget "ESPMaskedTextFieldTests" */;
+			buildConfigurationList = 142D305618AAFCE50072AC37 /* Build configuration list for PBXNativeTarget "ESPTextFieldMaskerTests" */;
 			buildPhases = (
 				142D303C18AAFCE50072AC37 /* Sources */,
 				142D303D18AAFCE50072AC37 /* Frameworks */,
 				142D303E18AAFCE50072AC37 /* Resources */,
+				142D305B18AAFDA80072AC37 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				142D304718AAFCE50072AC37 /* PBXTargetDependency */,
 			);
-			name = ESPMaskedTextFieldTests;
+			name = ESPTextFieldMaskerTests;
 			productName = ESPMaskedTextFieldTests;
-			productReference = 142D304018AAFCE50072AC37 /* ESPMaskedTextFieldTests.xctest */;
+			productReference = 142D304018AAFCE50072AC37 /* ESPTextFieldMaskerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -190,7 +181,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "André Gustavo Espeiorin";
 			};
-			buildConfigurationList = 142D302B18AAFCE50072AC37 /* Build configuration list for PBXProject "ESPMaskedTextField" */;
+			buildConfigurationList = 142D302B18AAFCE50072AC37 /* Build configuration list for PBXProject "ESPTextFieldMasker" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -202,8 +193,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				142D302F18AAFCE50072AC37 /* ESPMaskedTextField */,
-				142D303F18AAFCE50072AC37 /* ESPMaskedTextFieldTests */,
+				142D302F18AAFCE50072AC37 /* ESPTextFieldMasker */,
+				142D303F18AAFCE50072AC37 /* ESPTextFieldMaskerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -213,18 +204,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				142D304E18AAFCE50072AC37 /* InfoPlist.strings in Resources */,
+				142D306A18AB01E90072AC37 /* ESPTextFieldMaskerTests-Info.plist in Resources */,
+				142D306718AB01E90072AC37 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		142D305B18AAFDA80072AC37 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		142D302C18AAFCE50072AC37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				142D303B18AAFCE50072AC37 /* ESPMaskedTextField.m in Sources */,
+				142D306518AB01E90072AC37 /* ESPTextFieldMasker.m in Sources */,
+				142D306D18AB0F8E0072AC37 /* ESPFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +241,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				142D305018AAFCE50072AC37 /* ESPMaskedTextFieldTests.m in Sources */,
+				142D306618AB01E90072AC37 /* ESPTextFieldMasker.m in Sources */,
+				142D306918AB01E90072AC37 /* ESPTextFieldMaskerTests.m in Sources */,
+				142D306E18AB0F8E0072AC37 /* ESPFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,16 +252,16 @@
 /* Begin PBXTargetDependency section */
 		142D304718AAFCE50072AC37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 142D302F18AAFCE50072AC37 /* ESPMaskedTextField */;
+			target = 142D302F18AAFCE50072AC37 /* ESPTextFieldMasker */;
 			targetProxy = 142D304618AAFCE50072AC37 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		142D304C18AAFCE50072AC37 /* InfoPlist.strings */ = {
+		142D306118AB01E90072AC37 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				142D304D18AAFCE50072AC37 /* en */,
+				142D306218AB01E90072AC37 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -333,9 +344,9 @@
 			buildSettings = {
 				DSTROOT = /tmp/ESPMaskedTextField.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ESPMaskedTextField/ESPMaskedTextField-Prefix.pch";
+				GCC_PREFIX_HEADER = "ESPTextFieldMasker/ESPTextFieldMasker-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ESPTextFieldMasker;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -345,9 +356,9 @@
 			buildSettings = {
 				DSTROOT = /tmp/ESPMaskedTextField.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ESPMaskedTextField/ESPMaskedTextField-Prefix.pch";
+				GCC_PREFIX_HEADER = "ESPTextFieldMasker/ESPTextFieldMasker-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ESPTextFieldMasker;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -362,13 +373,13 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ESPMaskedTextField/ESPMaskedTextField-Prefix.pch";
+				GCC_PREFIX_HEADER = "ESPTextFieldMasker/ESPTextFieldMasker-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ESPMaskedTextFieldTests/ESPMaskedTextFieldTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ESPTextFieldMaskerTests/ESPTextFieldMaskerTests-Info.plist";
+				PRODUCT_NAME = ESPTextFieldMaskerTests;
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -383,9 +394,9 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ESPMaskedTextField/ESPMaskedTextField-Prefix.pch";
-				INFOPLIST_FILE = "ESPMaskedTextFieldTests/ESPMaskedTextFieldTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ESPTextFieldMasker/ESPTextFieldMasker-Prefix.pch";
+				INFOPLIST_FILE = "ESPTextFieldMaskerTests/ESPTextFieldMaskerTests-Info.plist";
+				PRODUCT_NAME = ESPTextFieldMaskerTests;
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -393,7 +404,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		142D302B18AAFCE50072AC37 /* Build configuration list for PBXProject "ESPMaskedTextField" */ = {
+		142D302B18AAFCE50072AC37 /* Build configuration list for PBXProject "ESPTextFieldMasker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				142D305118AAFCE50072AC37 /* Debug */,
@@ -402,21 +413,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		142D305318AAFCE50072AC37 /* Build configuration list for PBXNativeTarget "ESPMaskedTextField" */ = {
+		142D305318AAFCE50072AC37 /* Build configuration list for PBXNativeTarget "ESPTextFieldMasker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				142D305418AAFCE50072AC37 /* Debug */,
 				142D305518AAFCE50072AC37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		142D305618AAFCE50072AC37 /* Build configuration list for PBXNativeTarget "ESPMaskedTextFieldTests" */ = {
+		142D305618AAFCE50072AC37 /* Build configuration list for PBXNativeTarget "ESPTextFieldMaskerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				142D305718AAFCE50072AC37 /* Debug */,
 				142D305818AAFCE50072AC37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

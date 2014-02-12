@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ESPMaskedTextField.xcodeproj">
+      location = "self:ESPTextFieldMasker.xcodeproj">
    </FileRef>
 </Workspace>

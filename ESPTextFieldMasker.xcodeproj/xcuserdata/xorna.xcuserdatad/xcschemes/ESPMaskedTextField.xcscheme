@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "142D302F18AAFCE50072AC37"
-               BuildableName = "libESPMaskedTextField.a"
-               BlueprintName = "ESPMaskedTextField"
-               ReferencedContainer = "container:ESPMaskedTextField.xcodeproj">
+               BuildableName = "libESPTextFieldMasker.a"
+               BlueprintName = "ESPTextFieldMasker"
+               ReferencedContainer = "container:ESPTextFieldMasker.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "142D303F18AAFCE50072AC37"
-               BuildableName = "ESPMaskedTextFieldTests.xctest"
-               BlueprintName = "ESPMaskedTextFieldTests"
-               ReferencedContainer = "container:ESPMaskedTextField.xcodeproj">
+               BuildableName = "ESPTextFieldMaskerTests.xctest"
+               BlueprintName = "ESPTextFieldMaskerTests"
+               ReferencedContainer = "container:ESPTextFieldMasker.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
